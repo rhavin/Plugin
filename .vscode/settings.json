@@ -1,5 +1,5 @@
 {
-    "phpunit.phpunit": "${workspaceFolder}/../vendor/bin/phpunit.bat",
+    "phpunit.phpunit": "${workspaceFolder}/../vendor/bin/phpunit",
     "phpunit.configFile": "${workspaceFolder}/_test/phpunit.xml",
     "phpunit.files": "_test/**/*Test.php"
 }
