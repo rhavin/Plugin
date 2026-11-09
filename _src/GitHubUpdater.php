@@ -1502,7 +1502,7 @@ class GitHubUpdater
     private function convertMarkdownToHtml(string $markdown): string
     {
         $html = [];
-        $lines = explode(PHP_EOL, $markdown);
+        $lines = preg_split('/\r\n|\r|\n/', $markdown);
         $index = 0;
 
         while (isset($lines[$index])) {
